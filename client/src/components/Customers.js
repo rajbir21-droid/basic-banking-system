@@ -11,7 +11,11 @@ const Customers = () => {
   }, [])
   return (
     <div className='customers'>
-      {loading && <h2 className='loading'>loading ...</h2>}
+      {loading && <h2 className='loading'>loading
+        <span>.</span>
+        <span>.</span>
+        <span>.</span> 
+      </h2>}
       {!loading && (
         <table>
           <thead>
