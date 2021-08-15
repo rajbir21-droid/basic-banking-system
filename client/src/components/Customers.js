@@ -12,9 +12,9 @@ const Customers = () => {
   return (
     <div className='customers'>
       {loading && <h2 className='loading'>loading
-        <span>.</span>
-        <span>.</span>
-        <span>.</span> 
+        <span className="load">.</span>
+        <span className="load">.</span>
+        <span className="load">.</span> 
       </h2>}
       {!loading && (
         <table>
