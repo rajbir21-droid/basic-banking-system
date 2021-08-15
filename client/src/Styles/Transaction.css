@@ -1,0 +1,43 @@
+.transactionContainer{
+  margin: auto;
+  margin-top: 7rem;
+  background-color: #eee;
+  width: 70%;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+th,
+td {
+  padding: 1rem 2rem;
+}
+
+th {
+  background-color: #222;
+  color: white;
+}
+
+.transaction:nth-child(odd) {
+  background-color: #ddd;
+}
+.loading {
+  text-align: center;
+  background-color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+  .transactionContainer{
+    width: 350px;
+  }
+  th,
+  td {
+    padding: 1.1rem 0.5rem;
+  }
+}

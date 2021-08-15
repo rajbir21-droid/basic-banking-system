@@ -1,0 +1,74 @@
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:65vh !important;
+    width: 85vw;
+    margin-left: 20px;
+    margin-top: 110px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgb(236, 79, 236);
+    background: url('../images/mobile-banking-1024x682.jpeg');
+    background-size: 85vw 65vh;
+}
+.iga{
+    width: 100%;
+}
+.Text{
+    position: relative;
+    font-size: 4.8em;
+    margin-right: 600px;
+    font-weight: bold;
+    color: black;
+}
+.text{
+    position: relative;
+    font-size: 1.8em;
+    /*font-weight: bold*/;
+    font-style: italic;
+    color: black;
+    left: -950px;
+    bottom: -90px;
+}
+@media (max-width:1000px){
+    .carousel-item{
+        margin-left: 50px;
+    }
+    .Text{
+        position: relative;
+        font-size: 2.8em;
+        margin-right: 320px;
+        font-weight: bold;
+        color: black;
+    }
+    .text{
+        position: relative;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: black;
+        left: -530px;
+        bottom: -130px;
+    }
+}
+@media (max-width:640px){
+    .carousel-item{
+        margin-left: 8px;
+        margin-top: 76px;
+    }
+    .Text{
+        position: relative;
+        font-size: 2.1em;
+        top: 90px;
+        margin-right: 9px;
+        font-weight: bold;
+        color: black;
+    }
+    .text{
+        position: relative;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: black;
+        left: -110px;
+        bottom: -160px;
+    }
+}

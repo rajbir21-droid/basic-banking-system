@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: black;
+    color: white;
+    height:210px;
+}
+h4{
+    margin-top: 20px;
+}
+.copyright{
+    background:rgba(0, 0, 0, 0.062);
+    margin-top: 70px;
+    font-size: large;
+    font-weight: bold;
+}
+@media (max-width:640px) {
+    footer{
+        flex-direction: column;
+        height: 340px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+}
