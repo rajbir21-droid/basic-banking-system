@@ -20,7 +20,11 @@ const Transaction = () => {
   }
   return (
     <div className='transactionContainer'>
-      {loading && <h2 className='loading'>loading ...</h2>}
+      {loading && <h2 className='loading'>loading
+      <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span> 
+      </h2>}
       {!loading && (
         <table>
           <thead>
