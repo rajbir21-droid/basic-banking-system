@@ -13,7 +13,7 @@ const Modal = ({ user, setModalDisplay, modalDisplay }) => {
   const formSubmit = e => {
     e.preventDefault()
     if (formData.amount === 0 || formData.to === null) {
-      alert('Please fill the all data')
+      alert('Please fill all the data')
     }
     makeTransaction({
       from: user._id,
