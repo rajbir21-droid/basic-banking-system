@@ -20,7 +20,9 @@ For backend:
 ```
 For Front-End:
   "axios": "^0.21.1",
+   "aos": "^2.3.4",
   "bootstrap": "^5.0.2",
+  "popper.js": "^1.16.1",
   "react": "^17.0.2",
   "react-dom": "^17.0.2",
   "react-router-dom": "^5.2.0",
